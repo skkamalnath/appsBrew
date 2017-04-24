@@ -1,0 +1,44 @@
+div.img {
+    background-image: url("/assets/images/background.jpg");
+    background-color: #cccccc;
+}
+div.img1 {
+    background-image: url("/assets/images/background1.jpg");
+    background-color: #cccccc;
+}
+div.badge{
+	margin:200px;
+	border-radius: 5px;
+	padding:20px 20px;
+    opacity: 0.7;
+}
+p.mtop{
+	text-align:left;
+	color: #000;
+	font-size: 16px;
+}
+p.mtop:first-child{
+	font-size: 20px;
+}
+h3,h4,h5{
+	color:#000;
+}
+.text-white{
+	color:#fff;
+	text-shadow: 2px 2px #000;
+}
+div.box{
+	background-color: #fff;
+	padding:40px 20px;
+	margin:0px 0px 0px 70px;
+	margin-bottom:50px;
+}
+button.btn-primary{
+	border-radius: 1px;
+}
+p.strong{
+	font-weight: bold;
+}
+*{
+	line-height:150%;
+}
