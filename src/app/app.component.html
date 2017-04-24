@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">appsBrew</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><button class="btn"><a routerLink="/home" routerLinkActive="active">Home</a></button></li>
+      <li><button class="btn"><a routerLink="/aboutus" routerLinkActive="active">About Us</a></button></li>
+      <li><button class="btn"><a routerLink="/register" routerLinkActive="active">Register</a></button></li>
+      <li><button class="btn"><a routerLink="/contact" routerLinkActive="active">Contact Us</a></button></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
