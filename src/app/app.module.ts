@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent }    from './home/home.component';
+import { FooterComponent }    from './footer/footer.component';
 import { AboutUsComponent }    from './about/about-us.component';
 import { RegisterComponent }    from './register/register.component';
 import { ContactComponent }    from './contact/contact.component';
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
     AboutUsComponent,
     RegisterComponent,
     ContactComponent,
+    FooterComponent,
     NotFoundComponent
   ],
   imports: [
