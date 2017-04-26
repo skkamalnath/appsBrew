@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  templateUrl: 'contact.component.html',
-  styleUrls: ['./contact.component.css']
+  template: '<p>Contact Us</p>',
 })
 
 export class ContactComponent {
